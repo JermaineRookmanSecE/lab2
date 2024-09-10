@@ -1,5 +1,22 @@
 <!DOCTYPE html>
 <html>
+<head>
+<style>
+.flex-container {
+  display: flex;
+  justify-content: center;
+  background-color: green;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 60px;
+  font-size: 30px;
+}
+</style>
 <body>
     <header>
         <h1>Lab2</h1>
@@ -10,7 +27,7 @@
 
 <article>
     <h2>What is this website for?</h2> 
-    <p>This website has been created in order for me (A student) to recieve a grade from my college professor</p>
+    <p>This website has been created in order for me (a student) to recieve a grade from my college professor</p>
 </article>
 
 <article>
@@ -20,6 +37,12 @@
     <a href="https://www.w3schools.com/cssref/index.php">CSS Help</a> |
   </nav> 
 </article>
+
+<div class="flex-container">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+  </div> 
 
 </main>
 
